@@ -11,6 +11,12 @@ import java.util.Optional;
 
 import static com.hostfullystay.app.domain.Booking.State.BOOKED;
 
+/**
+ * Service class for handling business logic related to Booking entities.
+ * Manages the interaction between the controllers and the Booking repository.
+ *
+ * @author Sakthidharan Ashwin
+ */
 @Service
 @Transactional
 public class BookingService {
